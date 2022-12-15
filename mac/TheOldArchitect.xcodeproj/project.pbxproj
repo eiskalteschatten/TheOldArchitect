@@ -36,6 +36,7 @@
 		9353AFF8294A7E750070682B = {
 			isa = PBXGroup;
 			children = (
+				9353B01B294A819E0070682B /* liboldarch */,
 				9353B003294A7E750070682B /* TheOldArchitect */,
 				9353B002294A7E750070682B /* Products */,
 			);
@@ -69,6 +70,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9353B01B294A819E0070682B /* liboldarch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = liboldarch;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,6 +104,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
